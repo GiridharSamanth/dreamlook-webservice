@@ -13,7 +13,7 @@ import mimetypes
 s3_client = boto3.client('s3')
 s3_bucket = "dreamlook-temp"
 public_url = "https://dreamlook-temp.s3.ap-south-1.amazonaws.com"
-photoroom_apikkey = "sandbox_d1e7de9baa38ad47aa0cd15c31a2856b1c4dd297"
+photoroom_apikkey = "sandbox_d1e7de9baa38ad47aa0cd15c31a2856b1c4dd297" #"d1e7de9baa38ad47aa0cd15c31a2856b1c4dd297" 
 FORMAT_TO_CONTENT_TYPE = {
     "JPEG": "image/jpeg",
     "PNG": "image/png",
